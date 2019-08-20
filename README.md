@@ -1,7 +1,13 @@
-# rt
+# rt [![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://godoc.org/github.com/kasperlewau/rt) [![Build Status](https://travis-ci.org/kasperlewau/rt.svg?branch=master)](https://travis-ci.org/kasperlewau/rt) [![Go Report Card](https://goreportcard.com/badge/github.com/kasperlewau/rt)](https://goreportcard.com/report/github.com/kasperlewau/rt)
 
 package rt provides a set of `http.RoundTripper` middleware for common tasks
 
+## install
+```sh
+go get github.com/kasperlewau/rt
+```
+
+## usage
 ```go
 import (
 	"net/http"
@@ -23,3 +29,6 @@ func main() {
 	resp, _ := client.Do(req)
 }
 ```
+
+## license
+MIT
